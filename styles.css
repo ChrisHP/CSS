@@ -1,0 +1,30 @@
+table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+.card{
+    min-width: 250px;
+    width: 30%;
+}
+.imagen-div{
+    background-color: rgb(136, 148, 154);
+    padding: 30% 0px;
+}
+.imagen-p{
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.698); 
+    text-align: center; 
+    font-size: max(1.4em, 3vw);
+}
+.titulo-card{
+    margin: 10px;
+}
+.descripcion-card{
+    margin: 10px;
+}
+.item-card{
+    margin: 10px;
+}
+.links-card{
+    margin: 15px 10px;
+}
