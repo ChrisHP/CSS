@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+nav h3, nav ul, nav li,nav form{
+    display: inline;
+}
+
+.nav-bar{
+    background-color: rgb(44, 43, 48);
+    color: rgb(246, 240, 233);
+    padding: 10px;
+}.nav-links{
+    display: inline-block;
+    width: 50%;
+}
+nav ul{
+    padding-left: 10px;
+}
+nav li{
+    margin:5px
+}
+nav a{
+    color: rgb(246, 240, 233);
+    text-decoration: none;
+}
+.link{
+    color: rgb(161, 161, 161);
+}
+.disabled-link{
+    color: rgb(110, 110, 110);
+}
+nav form{
+    position: fixed;
+    right: 10px;
+    top: 6px;
+}
+#search-ipt{
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 150px;
+}
+#search-btn{
+    height: 35px;
+    border:2px solid green;
+    border-radius: 5px;
+    background-color: rgb(44, 43, 48);
+    color: green;
+}
+#search-btn:hover{
+    background-color: green;
+    color: rgb(246, 240, 233);
+}
+nav select{
+    color: rgb(161, 161, 161);
+    background-color: rgb(44, 43, 48);
+    border: 0px;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
