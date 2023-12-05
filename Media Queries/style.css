@@ -1,0 +1,148 @@
+
+.feed{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+    margin: 100px;
+}
+.post{
+    border-radius: 2.5vw;
+    background-image: linear-gradient(gray,rgb(244, 244, 244));
+    padding-top: 5px;
+    
+}
+.post-top{
+    display: flex;
+    flex-direction: row;
+}
+.avatar{
+    margin-left: 1vw;
+    width: 15%;
+}
+.avatar img{
+    width: 100%;
+    border-radius: 100%;
+}
+.post-info{
+    margin-top:0.1vw;
+    margin-left: 5px;
+}
+.post-info p{
+    margin: 0px;
+}
+.user-name{
+    font-size: 1.5vw;
+}
+.post-date{
+    color: white;
+    font-size: 1.2vw;
+}
+.post-options{
+    margin-left: auto;
+    margin-bottom: 0px;
+    height: 100%;
+    
+}
+.post-options button{
+    font-size: 3vw;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2vw 1vw;
+} 
+.post-options p{
+    margin-top: -2.5vw;
+    margin-bottom: 0;
+    height: 0px;
+
+}
+.post-img img{
+    width: 100%;
+}
+.post-actions{
+    margin: 1vw;
+}
+
+.post-actions div{
+    display: inline;
+    margin: 0 0.4vw;
+}
+.post-actions img{
+    width: 2vw;
+    margin-left: -0.3vw;
+}
+.post-description p{
+    font-size: 1.5vw;
+    margin: 0 1vw;
+    text-align: justify;
+    padding-bottom: 2vw;
+}
+.post-description span{
+    font-weight: bold;
+}
+@media (max-width: 768px)  {
+    .feed{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5vw;
+        margin: 5vw;
+    }
+    .post{
+        border-radius: 4vw;
+    }
+    .avatar{
+        margin-left: 1.5vw;
+        width: 2rem;
+    }
+    .post-info p{
+        margin: 0px;
+    }
+    .user-name{
+        font-size: 0.9rem;
+    }
+    .post-date{
+        font-size: 0.7rem;
+    }
+    .post-options button{
+        padding: 2vw 2vw;
+    } 
+    .post-options p{
+        font-size: 1.5rem;
+    
+    }
+    .post-actions{
+        margin: 0.3rem 2vw;
+    }
+    
+    .post-actions div{
+        display: inline;
+        margin-top: 0 0.4vw;
+    }
+    .post-actions img{
+        width: 1rem;
+    }
+    .post-description p{
+        font-size: 0.7rem;
+        margin: 0 2vw;
+        padding-bottom: 3vw;
+    }
+}
+@media (max-width: 375px)  {
+    .feed{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5vw;
+        margin: 10vw;
+    }
+    .post{
+        border-radius: 1.4rem;
+    }
+    .post-actions{
+        margin: 0.3rem 1rem;
+    }
+    .post-description p{
+        font-size: 0.7rem;
+        margin: 0 1rem;
+        padding-bottom: 1rem;
+    }
+}
