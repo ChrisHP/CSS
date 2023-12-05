@@ -6,7 +6,7 @@ nav{
     position: fixed;
     width: 100%;
 }
-nav h3, nav ul, nav li,nav form{
+.nav-bar h3, nav ul, nav li,nav form{
     display: inline;
 }
 
@@ -14,7 +14,8 @@ nav h3, nav ul, nav li,nav form{
     background-color: rgb(44, 43, 48);
     color: rgb(246, 240, 233);
     padding: 10px;
-}.nav-links{
+}
+.nav-links{
     display: inline-block;
     width: 50%;
 }
@@ -35,6 +36,7 @@ nav a{
     color: rgb(110, 110, 110);
 }
 nav form{
+    display: inline-block;
     position: fixed;
     right: 10px;
     top: 6px;
@@ -62,4 +64,26 @@ nav select{
     border: 0px;
     font-size: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hamburguer{
+    display: none;
+}
+@media(max-width: 768px){
+    .nav-links{
+        display: none;
+    }
+    nav form{
+        display: none;
+    }
+    .hamburguer{
+        display: inline-block;
+        position: fixed;
+        right: 10px;
+        top: 6px;
+    }
+    .hamburguer img{
+        width: 30px;
+    }
+
+
 }
